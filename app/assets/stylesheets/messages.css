@@ -54,6 +54,30 @@
 .chat-header {
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-header {
+  color: #333;
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.header-title {
+  
+}
+
+.header-button {
+  margin-top: 40px;
+}
+
+.header-button a {
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid darkred;
+  color: darkred;
+
 }
 
 .messages {
